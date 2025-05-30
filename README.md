@@ -27,9 +27,6 @@ To verify that the rule was successfully added, I used:
 
 sudo ufw status verbose
 
-To                         Action      From
-23/tcp                     DENY IN     Anywhere
-
 This confirms that the firewall is actively blocking inbound Telnet traffic, thereby preventing unauthorized or insecure remote access attempts on that port.
 
 Step 4: Testing the Newly Added Firewall Rule
