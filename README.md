@@ -51,7 +51,7 @@ sudo ufw status verbose
 
 Which confirmed that SSH traffic was allowed.
 
-Step 7: Deleting All Firewall Rules to Restore Original State
+Step 6: Deleting All Firewall Rules to Restore Original State
 After completing the tests, I deleted all the previously added firewall rules to return the firewall to its original default configuration.
 
 This was done using the following command:
